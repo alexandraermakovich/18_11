@@ -4,3 +4,6 @@ synchronize:
     exclude:
     - "1/*"
     - "autodiff.ipynb"
+    include:
+    - "1/*"
+    - "autodiff.ipynb"
