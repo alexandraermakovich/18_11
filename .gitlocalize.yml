@@ -1,4 +1,6 @@
-settings:
- popup_for_contributors:
-    enabled: true
-    message_text: Hello!
+synchronize:
+  paths:
+  - source: .
+    exclude:
+    - "1/*"
+    - "autodiff.ipynb"
